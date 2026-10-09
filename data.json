@@ -1,0 +1,287 @@
+{
+  "appName": "Adventures Coloring Studio",
+  "shortName": "Coloring",
+  "tagline": "Mewarna digital untuk kanak-kanak — percuma, tanpa iklan",
+  "version": "1.1.0",
+  "totalPages": 41,
+  "palette": [
+    {
+      "hex": "#FF5A5F",
+      "name": "Merah"
+    },
+    {
+      "hex": "#FF9F43",
+      "name": "Jingga"
+    },
+    {
+      "hex": "#FECA57",
+      "name": "Kuning"
+    },
+    {
+      "hex": "#A3E048",
+      "name": "Hijau Muda"
+    },
+    {
+      "hex": "#2ECC71",
+      "name": "Hijau"
+    },
+    {
+      "hex": "#1ABC9C",
+      "name": "Tiara"
+    },
+    {
+      "hex": "#00D2D3",
+      "name": "Sian"
+    },
+    {
+      "hex": "#54A0FF",
+      "name": "Biru"
+    },
+    {
+      "hex": "#5F27CD",
+      "name": "Ungu"
+    },
+    {
+      "hex": "#FD79A8",
+      "name": "Merah Jambu"
+    },
+    {
+      "hex": "#8B5E3C",
+      "name": "Perang"
+    },
+    {
+      "hex": "#FFFFFF",
+      "name": "Putih"
+    },
+    {
+      "hex": "#2D3436",
+      "name": "Hitam"
+    },
+    {
+      "hex": "#636E72",
+      "name": "Kelabu"
+    },
+    {
+      "hex": "#E17055",
+      "name": "Bata"
+    },
+    {
+      "hex": "#74B9FF",
+      "name": "Biru Langit"
+    }
+  ],
+  "brushSizes": [
+    3,
+    6,
+    12,
+    15,
+    20
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "file": "assets/pages/page_01.png",
+      "title": "Halaman 01"
+    },
+    {
+      "id": 2,
+      "file": "assets/pages/page_02.png",
+      "title": "Halaman 02"
+    },
+    {
+      "id": 3,
+      "file": "assets/pages/page_03.png",
+      "title": "Halaman 03"
+    },
+    {
+      "id": 4,
+      "file": "assets/pages/page_04.png",
+      "title": "Halaman 04"
+    },
+    {
+      "id": 5,
+      "file": "assets/pages/page_05.png",
+      "title": "Halaman 05"
+    },
+    {
+      "id": 6,
+      "file": "assets/pages/page_06.png",
+      "title": "Halaman 06"
+    },
+    {
+      "id": 7,
+      "file": "assets/pages/page_07.png",
+      "title": "Halaman 07"
+    },
+    {
+      "id": 8,
+      "file": "assets/pages/page_08.png",
+      "title": "Halaman 08"
+    },
+    {
+      "id": 9,
+      "file": "assets/pages/page_09.png",
+      "title": "Halaman 09"
+    },
+    {
+      "id": 10,
+      "file": "assets/pages/page_10.png",
+      "title": "Halaman 10"
+    },
+    {
+      "id": 11,
+      "file": "assets/pages/page_11.png",
+      "title": "Halaman 11"
+    },
+    {
+      "id": 12,
+      "file": "assets/pages/page_12.png",
+      "title": "Halaman 12"
+    },
+    {
+      "id": 13,
+      "file": "assets/pages/page_13.png",
+      "title": "Halaman 13"
+    },
+    {
+      "id": 14,
+      "file": "assets/pages/page_14.png",
+      "title": "Halaman 14"
+    },
+    {
+      "id": 15,
+      "file": "assets/pages/page_15.png",
+      "title": "Halaman 15"
+    },
+    {
+      "id": 16,
+      "file": "assets/pages/page_16.png",
+      "title": "Halaman 16"
+    },
+    {
+      "id": 17,
+      "file": "assets/pages/page_17.png",
+      "title": "Halaman 17"
+    },
+    {
+      "id": 18,
+      "file": "assets/pages/page_18.png",
+      "title": "Halaman 18"
+    },
+    {
+      "id": 19,
+      "file": "assets/pages/page_19.png",
+      "title": "Halaman 19"
+    },
+    {
+      "id": 20,
+      "file": "assets/pages/page_20.png",
+      "title": "Halaman 20"
+    },
+    {
+      "id": 21,
+      "file": "assets/pages/page_21.png",
+      "title": "Halaman 21"
+    },
+    {
+      "id": 22,
+      "file": "assets/pages/page_22.png",
+      "title": "Halaman 22"
+    },
+    {
+      "id": 23,
+      "file": "assets/pages/page_23.png",
+      "title": "Halaman 23"
+    },
+    {
+      "id": 24,
+      "file": "assets/pages/page_24.png",
+      "title": "Halaman 24"
+    },
+    {
+      "id": 25,
+      "file": "assets/pages/page_25.png",
+      "title": "Halaman 25"
+    },
+    {
+      "id": 26,
+      "file": "assets/pages/page_26.png",
+      "title": "Halaman 26"
+    },
+    {
+      "id": 27,
+      "file": "assets/pages/page_27.png",
+      "title": "Halaman 27"
+    },
+    {
+      "id": 28,
+      "file": "assets/pages/page_28.png",
+      "title": "Halaman 28"
+    },
+    {
+      "id": 29,
+      "file": "assets/pages/page_29.png",
+      "title": "Halaman 29"
+    },
+    {
+      "id": 30,
+      "file": "assets/pages/page_30.png",
+      "title": "Halaman 30"
+    },
+    {
+      "id": 31,
+      "file": "assets/pages/page_31.png",
+      "title": "Halaman 31"
+    },
+    {
+      "id": 32,
+      "file": "assets/pages/page_32.png",
+      "title": "Halaman 32"
+    },
+    {
+      "id": 33,
+      "file": "assets/pages/page_33.png",
+      "title": "Halaman 33"
+    },
+    {
+      "id": 34,
+      "file": "assets/pages/page_34.png",
+      "title": "Halaman 34"
+    },
+    {
+      "id": 35,
+      "file": "assets/pages/page_35.png",
+      "title": "Halaman 35"
+    },
+    {
+      "id": 36,
+      "file": "assets/pages/page_36.png",
+      "title": "Halaman 36"
+    },
+    {
+      "id": 37,
+      "file": "assets/pages/page_37.png",
+      "title": "Halaman 37"
+    },
+    {
+      "id": 38,
+      "file": "assets/pages/page_38.png",
+      "title": "Halaman 38"
+    },
+    {
+      "id": 39,
+      "file": "assets/pages/page_39.png",
+      "title": "Halaman 39"
+    },
+    {
+      "id": 40,
+      "file": "assets/pages/page_40.png",
+      "title": "Halaman 40"
+    },
+    {
+      "id": 41,
+      "file": "assets/pages/page_41.png",
+      "title": "Halaman 41"
+    }
+  ]
+}

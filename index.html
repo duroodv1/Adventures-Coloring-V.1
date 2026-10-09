@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="description" content="Adventures Coloring Studio — aplikasi mewarna digital untuk kanak-kanak. 41 helaian, percuma, tanpa iklan, sedia luar talian.">
+  <meta name="theme-color" content="#FF6B35">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Coloring">
+  <title>Adventures Coloring Studio — Mewarna Digital Kanak-kanak</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/favicon.ico" sizes="any">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div id="splash" class="loading-splash" aria-hidden="true">
+    <div class="inner">
+      <img src="icons/icon-192.png" alt="Adventures Coloring Studio">
+      <p>Sediakan warna anda…</p>
+    </div>
+  </div>
+
+  <header class="app-header">
+    <img class="app-logo" src="icons/icon-192.png" alt="Logo">
+    <div class="app-title-block">
+      <div class="app-title">Adventures Coloring Studio</div>
+      <div class="app-tagline">Mesra kanak-kanak · Tiada iklan · Luar talian</div>
+    </div>
+    <span id="netBadge" class="badge"><span class="dot"></span>Dalam talian</span>
+  </header>
+
+  <main class="gallery-main">
+    <div id="installBanner" class="install-banner" role="region" aria-label="Pasang aplikasi">
+      <span style="font-size:1.5rem">📲</span>
+      <div class="txt">
+        Pasang aplikasi ini di telefon anda!
+        <small>Buka luar talian, tanpa pelayar.</small>
+      </div>
+      <button id="installBtn" type="button">Pasang</button>
+      <button id="installClose" class="close" type="button" aria-label="Tutup">✕</button>
+    </div>
+
+    <div class="gallery-hero">
+      <div>
+        <h2>Pilih helaian untuk diwarnakan</h2>
+        <p id="heroCount">Memuatkan helaian…</p>
+      </div>
+      <a class="btn small ghost" href="editor.html?page=1" style="text-decoration:none">🎲 Rawak</a>
+    </div>
+
+    <section id="grid" class="grid" aria-label="Senarai helaian mewarna"></section>
+
+    <footer class="app-footer">
+      Dibina dengan ❤️ untuk kanak-kanak Malaysia · <strong>v1.1.0</strong><br>
+      <strong>Percuma</strong> · <strong>Tiada iklan</strong> · <strong>Tiada pembelian dalam aplikasi</strong><br>
+      Lukisan anda disimpan secara setempat pada peranti ini sahaja.
+    </footer>
+  </main>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/gallery.js"></script>
+</body>
+</html>

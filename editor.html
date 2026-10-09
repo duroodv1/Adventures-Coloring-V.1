@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#FF6B35">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>Penyunting Mewarna — Adventures Coloring Studio</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/favicon.ico" sizes="any">
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="editor-body">
+  <div id="splash" class="loading-splash" aria-hidden="true">
+    <div class="inner">
+      <img src="icons/icon-192.png" alt="">
+      <p>Menyediakan kanvas…</p>
+    </div>
+  </div>
+
+  <header class="editor-top">
+    <button id="btnBack" class="icon-btn" aria-label="Kembali ke halaman utama" title="Kembali">←</button>
+    <div id="pageTitle" class="editor-page-title">Halaman</div>
+    <div class="zoom-group" role="group" aria-label="Zum imej">
+      <button id="btnZoomOut" class="icon-btn zoom-btn" aria-label="Kecilkan imej" title="Kecilkan imej (−)">−</button>
+      <span id="zoomLevel" class="zoom-level" aria-live="polite">100%</span>
+      <button id="btnZoomIn" class="icon-btn zoom-btn" aria-label="Besarkan imej" title="Besarkan imej (+)">＋</button>
+    </div>
+    <button id="btnUndo" class="icon-btn" aria-label="Undo" title="Undo (Ctrl+Z)">↩</button>
+    <button id="btnRedo" class="icon-btn" aria-label="Redo" title="Redo (Ctrl+Y)">↪</button>
+  </header>
+
+  <div id="canvasWrap" class="canvas-wrap">
+    <div id="stage" class="canvas-stage">
+      <img id="lineArt" class="line-art" alt="Gambar mewarna" draggable="false">
+      <canvas id="drawLayer" class="draw-layer" aria-label="Kanvas lukisan"></canvas>
+    </div>
+  </div>
+
+  <div id="brushCursor" class="brush-cursor" aria-hidden="true"></div>
+
+  <footer class="editor-toolbar">
+    <div class="toolbar-row">
+      <span class="toolbar-label">Alat</span>
+      <button id="toolPen" class="tool-btn active" aria-label="Berus" title="Berus">🖌️ Berus</button>
+      <button id="toolEraser" class="tool-btn" aria-label="Penghapus" title="Penghapus">🧽 Padam</button>
+      <button id="btnClear" class="tool-btn" aria-label="Kosongkan lukisan" title="Kosongkan lapisan lukisan">🗑️ Kosong</button>
+      <button id="btnSave" class="btn small" aria-label="Simpan PNG" title="Simpan PNG (Ctrl+S)">💾 Simpan PNG</button>
+    </div>
+    <div class="toolbar-row">
+      <span class="toolbar-label">Warna</span>
+      <div id="palette" class="palette" role="listbox" aria-label="Palet warna"></div>
+    </div>
+    <div class="toolbar-row">
+      <span class="toolbar-label">Berus</span>
+      <div id="brushRow" class="brush-sizes" role="group" aria-label="Saiz berus"></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/editor.js"></script>
+</body>
+</html>
